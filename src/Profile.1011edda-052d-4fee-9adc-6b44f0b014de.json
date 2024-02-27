@@ -1,4 +1,5 @@
 {
+    "id": "1011edda-052d-4fee-9adc-6b44f0b014de",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -56,6 +57,39 @@
         "BackgroundColor": "rgba(172, 208, 244, 1)"
     },
     "children": [
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
+                "Y": 86.462890625,
+                "RelativeX": 0,
+                "RelativeY": 86,
+                "position": "absolute",
+                "edgeOffsets": {
+                    "left": "36.52916666666667%",
+                    "top": "12.963103953147877%"
+                },
+                "style": {
+                    "position": "absolute",
+                    "left": "36.52916666666667%",
+                    "top": "12.963103953147877%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "fac33ffc-36a3-4ab9-9cd2-242fe4469e42",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
+        },
         {
             "type": "Group",
             "label": "Group",
@@ -276,10 +310,10 @@
                 "Height": 34,
                 "Width": 43,
                 "Visible": true,
-                "X": 311,
-                "Y": 428,
-                "RelativeX": 311,
-                "RelativeY": 428,
+                "X": 309,
+                "Y": 440,
+                "RelativeX": 309,
+                "RelativeY": 440,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -311,7 +345,7 @@
                 "Disabled": false,
                 "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
                 "position": "absolute",
-                "edgeOffsets": 428.99999999999994
+                "edgeOffsets": 440
             },
             "children": [],
             "id": "b8f56266-57e2-4ef4-93d8-2d2458539366",
@@ -334,9 +368,9 @@
                 "Width": 292,
                 "Visible": true,
                 "X": 5,
-                "Y": 407,
+                "Y": 418,
                 "RelativeX": 5,
-                "RelativeY": 407,
+                "RelativeY": 418,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -378,7 +412,7 @@
                 },
                 "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
                 "position": "absolute",
-                "edgeOffsets": 407.9921875,
+                "edgeOffsets": 418,
                 "children": "Add bio"
             },
             "children": [],
@@ -561,17 +595,17 @@
                 "Height": 82,
                 "Width": 375,
                 "Visible": true,
-                "X": 0,
-                "Y": 316,
-                "RelativeX": 0,
-                "RelativeY": 316,
+                "X": -1,
+                "Y": 321,
+                "RelativeX": -1,
+                "RelativeY": 321,
                 "ResizeMode": "STRETCH",
                 "BackgroundPictureResizeMode": "contain",
                 "Position": "Relative to Screen",
                 "TouchOpacity": 20,
                 "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
                 "position": "absolute",
-                "edgeOffsets": 316,
+                "edgeOffsets": 321,
                 "style": {
                     "position": "absolute",
                     "left": "8.463020833333333%",
@@ -595,9 +629,9 @@
                         "Width": 43,
                         "Visible": true,
                         "X": 309,
-                        "Y": 334,
-                        "RelativeX": 309,
-                        "RelativeY": 18,
+                        "Y": 346,
+                        "RelativeX": 310,
+                        "RelativeY": 25,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -628,7 +662,7 @@
                         "Disabled": false,
                         "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
                         "position": "absolute",
-                        "edgeOffsets": 334
+                        "edgeOffsets": 346
                     },
                     "children": [],
                     "id": "a45e0da8-ea6a-4982-9d1b-7924bcd57925",
@@ -648,10 +682,10 @@
                         "Height": 43,
                         "Width": 143,
                         "Visible": true,
-                        "X": 154.9921875,
-                        "Y": 332,
-                        "RelativeX": 154.9921875,
-                        "RelativeY": 16,
+                        "X": 153,
+                        "Y": 341,
+                        "RelativeX": 154,
+                        "RelativeY": 20,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -682,7 +716,7 @@
                         "Disabled": false,
                         "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
                         "position": "absolute",
-                        "edgeOffsets": 332
+                        "edgeOffsets": 341.00000000000006
                     },
                     "children": [],
                     "id": "9c6e8dd0-5670-4d4e-adec-54d931cc626c",
@@ -702,8 +736,8 @@
                         "Height": 42,
                         "Width": 139,
                         "Visible": true,
-                        "X": 3.99609375,
-                        "Y": 335,
+                        "X": 2.99609375,
+                        "Y": 340,
                         "RelativeX": 3.99609375,
                         "RelativeY": 19,
                         "ResizeMode": "STRETCH",
@@ -761,10 +795,10 @@
                 "Height": 37,
                 "Width": 117,
                 "Visible": true,
-                "X": 28,
-                "Y": 269,
-                "RelativeX": 28,
-                "RelativeY": 269,
+                "X": 15,
+                "Y": 277,
+                "RelativeX": 15,
+                "RelativeY": 277,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -795,7 +829,7 @@
                 "Disabled": false,
                 "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
                 "position": "absolute",
-                "edgeOffsets": 269
+                "edgeOffsets": 277
             },
             "children": [],
             "id": "e09af48f-9ab8-4159-bcc1-da60b115fbd9",
@@ -810,10 +844,10 @@
                 "Height": 155,
                 "Width": 161,
                 "Visible": true,
-                "X": 6,
-                "Y": 103,
-                "RelativeX": 6,
-                "RelativeY": 103,
+                "X": 4,
+                "Y": 119,
+                "RelativeX": 4,
+                "RelativeY": 119,
                 "ResizeMode": "FLOAT_IN_PLACE",
                 "style": {
                     "marginTop": 0,
@@ -840,7 +874,7 @@
                 "capInsets": {},
                 "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
                 "position": "absolute",
-                "edgeOffsets": 103
+                "edgeOffsets": 119.99999999999999
             },
             "children": [],
             "id": "8ade9565-f040-4b62-8cb8-204bdce369b4",
@@ -1067,10 +1101,10 @@
                 "Height": 38,
                 "Width": 115,
                 "Visible": true,
-                "X": 215,
-                "Y": 268,
-                "RelativeX": 215,
-                "RelativeY": 268,
+                "X": 200,
+                "Y": 276,
+                "RelativeX": 200,
+                "RelativeY": 276,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -1101,7 +1135,7 @@
                 "Disabled": false,
                 "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
                 "position": "absolute",
-                "edgeOffsets": 268
+                "edgeOffsets": 276
             },
             "children": [],
             "id": "18fbec92-acfc-4ca7-81ef-b8d1bb255e52",
@@ -1122,10 +1156,10 @@
                 "Height": 42,
                 "Width": 164,
                 "Visible": true,
-                "X": 190,
-                "Y": 200,
-                "RelativeX": 190,
-                "RelativeY": 200,
+                "X": 175,
+                "Y": 212,
+                "RelativeX": 175,
+                "RelativeY": 212,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -1168,7 +1202,7 @@
                 },
                 "ParentId": "1011edda-052d-4fee-9adc-6b44f0b014de",
                 "position": "absolute",
-                "edgeOffsets": 200,
+                "edgeOffsets": 212,
                 "children": "No name",
                 "FontWeight": "bold",
                 "TextAlign": "center"
@@ -1179,7 +1213,6 @@
             "name": "name label"
         }
     ],
-    "id": "1011edda-052d-4fee-9adc-6b44f0b014de",
     "thunkableVersion": 443,
     "name": "Profile"
 }

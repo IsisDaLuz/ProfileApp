@@ -1,4 +1,5 @@
 {
+    "id": "7f360abf-0f5d-4f09-bd84-47f95e7ff97a",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -813,7 +814,6 @@
             "name": "Email_TI"
         }
     ],
-    "id": "7f360abf-0f5d-4f09-bd84-47f95e7ff97a",
     "thunkableVersion": 443,
     "name": "Sign in"
 }
