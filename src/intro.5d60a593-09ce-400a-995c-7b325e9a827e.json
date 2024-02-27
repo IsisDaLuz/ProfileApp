@@ -1,4 +1,5 @@
 {
+    "id": "5d60a593-09ce-400a-995c-7b325e9a827e",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -169,7 +170,6 @@
             "name": "Image4"
         }
     ],
-    "id": "5d60a593-09ce-400a-995c-7b325e9a827e",
     "thunkableVersion": 445,
     "name": "intro"
 }
